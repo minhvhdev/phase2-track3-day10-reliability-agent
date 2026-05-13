@@ -19,6 +19,7 @@ cache:
   redis_url: "redis://localhost:6379/0"
 load_test:
   requests: 100
+  concurrency: 10
 
 # Chaos scenarios: each overrides provider fail_rate for targeted testing.
 # TODO(student): Add more scenarios or tweak these.
